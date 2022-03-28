@@ -20,6 +20,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.FlowerStore" >
         <activity
+            android:name="com.example.flowerstore.flowerDetail"
+            android:exported="false" />
+        <activity
             android:name="com.example.flowerstore.forgetpass"
             android:exported="false" />
         <activity

@@ -2465,6 +2465,10 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable hoa1_date
+drawable hoa2_date
+drawable hoa3_date
+drawable hoa4_date
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2628,6 +2632,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id bt_addtocart
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2747,6 +2752,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id img_chitiet
 id immediateStop
 id included
 id info
@@ -2758,6 +2764,8 @@ id item2
 id item3
 id item4
 id item_touch_helper_previous_elevation
+id iv_sptt1
+id iv_sptt2
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -2956,6 +2964,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id tb_chitiet
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2995,6 +3004,12 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_data
+id tv_motasp
+id tv_name
+id tv_price
+id tv_sptt1
+id tv_sptt2
 id unchecked
 id uniform
 id unlabeled
@@ -3103,8 +3118,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_flower_detail
 layout activity_forgetpass
 layout activity_signup
+layout activity_test
 layout control_panel
 layout custom_dialog
 layout design_bottom_navigation_item

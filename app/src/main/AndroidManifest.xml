@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FlowerStore">
         <activity
+            android:name=".flowerDetail"
+            android:exported="false" />
+        <activity
             android:name=".forgetpass"
             android:exported="false" />
         <activity
