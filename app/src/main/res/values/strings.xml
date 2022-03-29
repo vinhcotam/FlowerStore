@@ -9,4 +9,5 @@
     <string name="name">Tên bạn</string>
     <string name="sendcode">Lấy mã xác nhận</string>
     <string name="code">Mã xác nhận</string>
+    <string name="getpass">Lấy lại mật khẩu</string>
 </resources>

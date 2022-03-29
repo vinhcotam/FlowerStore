@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, signup.class);
                     Bundle bundle = new Bundle();
                     bundle.getString("email", email);
+                    db.close();
                     intent.putExtras(bundle);
                 startActivity(intent);
             }
@@ -69,9 +70,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 getemail();
                 Intent intent = new Intent(MainActivity.this, forgetpass.class);
-                Bundle bundle = new Bundle();
-                bundle.getString("email", email);
-                intent.putExtras(bundle);
+                db.close();
+                db=null;
                 startActivity(intent);
             }
         });
